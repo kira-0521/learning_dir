@@ -75,29 +75,8 @@
             </div>
         </nav>
 
-        <main>
-            <div class="row">
-                <div class="col-md-2 p-0">
-                    <div class="card">
-                        <div class="card-header">Featured</div>
-                        <div class="card-body">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-0">
-                    <div class="card">
-                        <div class="card-header">Featured</div>
-                        <div class="card-body">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-0">
-                    右からむ
-                    @yield('content')
-                </div>
-            </div>
+        <main class="py-4">
+            @yield('content')
         </main>
     </div>
 </body>
